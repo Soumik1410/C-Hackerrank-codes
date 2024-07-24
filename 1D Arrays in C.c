@@ -1,3 +1,4 @@
+//Dynamic 1D Array in C demonstration
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -17,6 +18,7 @@ int main() {
     int sum=0;
     for(i=0;i<n;i++)
         sum+=a[i];
-    printf("%d",sum);  
+    printf("%d",sum); 
+    free(a);
     return 0;
 }
